@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Music Tagger
+This is a web application designed to allow users to edit the ID3 tags of their music files. ID3 tags are a type of metadata that can be embedded in audio files and contain information such as artist name, album title, track number, and genre.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The web app allows users to upload their music files and edit the ID3 tags associated with each file. Users can edit the following ID3 tag fields: Title, Artist, Album, Album Artist, Year, Genre, Track Number, and Total Tracks.
 
-## Available Scripts
+<!-- ## Features
+The ID3 Tag Editor Web App has the following features:
 
-In the project directory, you can run:
+Upload music files in various audio formats (MP3, FLAC, WAV, etc.)
+Edit the ID3 tags of uploaded music files
+Save edited ID3 tags to the music files
+Download edited music files with updated ID3 tags
+Simple and intuitive user interface
 
-### `npm start`
+## How to Use
+To use the ID3 Tag Editor Web App, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Visit the web app URL in your browser
+Click the "Upload" button to upload your music file(s)
+Click on the file name to open the ID3 tag editor
+Edit the desired ID3 tag fields
+Click the "Save" button to save the changes to the file
+Click the "Download" button to download the edited file with updated ID3 tags
+Technologies Used
+The ID3 Tag Editor Web App is built using the following technologies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+HTML/CSS for the user interface
+JavaScript for the ID3 tag editing functionality
+Node.js and Express.js for the server-side logic
+ID3.js library for reading and writing ID3 tags in music files
 
-### `npm test`
+## Getting Started
+To run the ID3 Tag Editor Web App locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone the repository
+Install Node.js and npm if not already installed
+Install the required npm packages using the command npm install
+Run the app using the command npm start
+Access the app in your browser at http://localhost:3000
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License. -->
