@@ -13,11 +13,11 @@
 }
 
 .wave1 {
-    z-index: 0;
+    z-index: -1;
 }
 
 .wave2 {
-    z-index: -1;
+    z-index: -2;
     transform: translateY(-150px);
 }
 
@@ -34,6 +34,16 @@
 .slogan h1 {
     font-size: 60px;
     letter-spacing: -2px;
+}
+
+.slogan p {
+    font-size: 24px;
+    color: var(--color-gray-300);
+}
+
+.slogan span {
+    font-weight: 800;
+    color: var(--color-secondary-100);
 }
 
 .upload-section {
@@ -67,6 +77,7 @@
     gap: 0.5rem;
     transition: all 0.3s ease-out;
     outline: none;
+    transform: translateX(65px);
 }
 
 .drop-area button:hover {
@@ -84,4 +95,30 @@
 .drop-area h3 {
     font-size: 22px;
     color: var(--color-primary-100);
+}
+
+
+.cards-container {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.cards-container .card {
+    /* background: pink; */
+    background-color: #fff;
+    width: 50%;
+    border: 3px solid var(--color-gray-100);
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: var(--color-secondary-100);
+}
+
+.cards-container .card .icon {
+    font-size: 44px;
 }

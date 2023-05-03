@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
 
-import logo from '../../assets/logo/music-tagger-logo.svg';
+import logo from '../../assets/logo/music-tagger-logo-colored.svg';
 
 import classes from './MainNavigation.module.css';
 
