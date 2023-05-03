@@ -7,7 +7,9 @@
 .content {
     height: 88px;
     width: 100%;
-    /* background: pink; */
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,9 +34,10 @@
     padding: 0.5rem 1rem;
     cursor: pointer;
     background: var(--color-gray-100);
+    transition: all 0.3s ease-out;
 }
 
 .button:hover {
-    background: var(--color-secondary-100);
+    background: var(--color-primary-100);
     color: #fff;
 }

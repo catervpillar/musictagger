@@ -8,10 +8,14 @@ const MainNavigation = () => {
     return (
         <header className={classes.header}>
             <div className={classes.content}>
-                <div className={classes.logo}>
-                    <img src={logo} alt='Music Tagger' />
-                </div>
-                <button className={classes.button}>Get Started</button>
+                <Link to="/" >
+                    <div className={classes.logo}>
+                        <img src={logo} alt='Music Tagger' />
+                    </div>
+                </Link>
+                <NavLink to="/tagger">
+                    <button className={classes.button}>Get Started</button>
+                </NavLink>
             </div>
         </header>
     );
