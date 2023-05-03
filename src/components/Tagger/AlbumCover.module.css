@@ -28,6 +28,10 @@
     justify-content: center;
 }
 
+.album-cover:hover {
+    animation: pulse 0.4s ease 0s 1 normal forwards;
+}
+
 .album-cover:hover .overlay {
     opacity: 1;
 }
@@ -59,8 +63,7 @@
 }
 
 .default:hover {
-    background: var(--color-gray-200);
-    color: var(--color-black-100);
+    /* animation: pulse 0.5s ease 0s 1 normal forwards; */
 }
 
 .default-content {
@@ -85,11 +88,11 @@
 .default .upload-button {
     font-size: 24px;
     font-weight: 800;
-    /* color: #fff; */
+    color: var(--color-gray-300);
     display: flex;
     gap: 1rem;
     opacity: 0;
-    transition: all 0.4s ease;
+    transition: all 0.2s ease;
     transform: translateY(20px);
 }
 
@@ -102,4 +105,26 @@
     max-height: 300px;
     width: auto;
     border-radius: 10px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
