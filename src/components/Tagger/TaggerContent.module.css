@@ -4,6 +4,8 @@
     padding: 0 2rem;
     /* background: pink; */
     /* border: 2px solid orange; */
+    overflow: hidden;
+    height: calc(100vh - 88px);
 }
 
 .parent {
@@ -22,12 +24,26 @@
     grid-area: 4 / 1 / 6 / 3;
 }
 
-.div3 {
+.main-tags {
     grid-area: 1 / 3 / 2 / 6;
 }
 
-.div4 {
+.main-tags p {
+    letter-spacing: 0.2rem;
+    font-size: 14px;
+    margin: 0 0 14px 0;
+    color: var(--color-primary-100);
+}
+
+.additional-tags {
     grid-area: 2 / 3 / 3 / 6;
+}
+
+.additional-tags p {
+    letter-spacing: 0.2rem;
+    font-size: 14px;
+    margin: 48px 0 14px 0;
+    color: var(--color-primary-100);
 }
 
 .div5 {
@@ -51,7 +67,6 @@
 .album-and-year {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     gap: 1rem;
 }
 
@@ -61,6 +76,34 @@
 
 .album-and-year .release-year {
     /* width: 10%; */
+}
+
+.track-disc-genre {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.track-no {}
+
+.disc-no {}
+
+.genre {
+    width: 90%;
+}
+
+.album-artist-composer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.album-artist {
+    width: 50%;
+}
+
+.composer {
+    width: 50%;
 }
 
 input,
@@ -81,4 +124,8 @@ input {
     border-radius: 0.3rem;
     padding: 0.5rem 1rem;
     width: 100%;
+}
+
+input:focus {
+    outline-color: var(--color-primary-100) !important;
 }
