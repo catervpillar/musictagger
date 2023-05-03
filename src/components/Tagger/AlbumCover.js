@@ -24,7 +24,7 @@ const AlbumCover = () => {
                     <div className={classes['default-content']}>
                         <FontAwesomeIcon icon={faImage} className={classes["image-icon"]} />
                         <div className={classes['upload-button']}>
-                            <FontAwesomeIcon icon={faUpload} className={''} />
+                            <FontAwesomeIcon icon={faUpload} />
                             Upload Cover
                         </div>
                     </div>
