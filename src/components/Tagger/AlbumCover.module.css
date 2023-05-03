@@ -1,0 +1,105 @@
+.album-cover {
+    grid-area: 1 / 1 / 4 / 3;
+    overflow: hidden;
+    /* padding: 2rem; */
+    height: 300px;
+    width: 300px;
+    background: var(--color-gray-100);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.album-cover .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    padding: 1rem;
+    transition: all 0.3s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.album-cover:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .button {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    font-size: 18px;
+    font-weight: 700;
+    background: transparent;
+    border: none;
+    border-radius: 0.3rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.overlay .button:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.default {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.default:hover {
+    background: var(--color-gray-200);
+    color: var(--color-black-100);
+}
+
+.default-content {
+    text-align: center;
+}
+
+.default .image-icon {
+    transition: all 0.2s ease;
+}
+
+.default:hover .image-icon {
+    color: var(--color-black-100);
+    transform: translateY(-40px);
+    opacity: 0;
+}
+
+.default .image-icon {
+    font-size: 88px;
+    color: var(--color-gray-200);
+}
+
+.default .upload-button {
+    font-size: 24px;
+    font-weight: 800;
+    /* color: #fff; */
+    display: flex;
+    gap: 1rem;
+    opacity: 0;
+    transition: all 0.4s ease;
+    transform: translateY(20px);
+}
+
+.default:hover .upload-button {
+    opacity: 1;
+    transform: translateY(-125%);
+}
+
+.album-cover img {
+    max-height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
