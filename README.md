@@ -3,6 +3,9 @@ This is a web application designed to allow users to edit the ID3 tags of their 
 
 The web app allows users to upload their music files and edit the ID3 tags associated with each file. Users can edit the following ID3 tag fields: Title, Artist, Album, Album Artist, Year, Genre, Track Number, and Total Tracks.
 
+<img src="screenshots/musictagger_landing_page.png">
+<img src="screenshots/musictagger_tagger.png">
+
 <!-- ## Features
 The ID3 Tag Editor Web App has the following features:
 
